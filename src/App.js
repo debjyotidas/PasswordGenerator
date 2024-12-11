@@ -1,8 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
 import { TextField } from "@mui/material";
 import { useCallback, useEffect, useRef, useState } from 'react';
-
 
 function App() {
   
@@ -40,8 +37,7 @@ function App() {
     PwdRef.current.select();
 
   }
-  
-  
+
   return (
          <>
           <div className='bg-slate-900 text-white mx-auto w-full py-3 h-screen justify-center align-top'>
@@ -50,7 +46,7 @@ function App() {
 
               <div className='flex my-2'>
                   <TextField className='bg-slate-200 text-orange-500 w-full' 
-                  label={<label className="text-slate-400 text-md font-bold">Your Password</label>} 
+                  placeholder="Your Password"
                   id="fullWidth" 
                   InputProps={{
                   readOnly: true, style: { color: 'orange' }}} 
