@@ -32,7 +32,7 @@ function App() {
     setBtnVal("Copied!")
     // After 5 seconds, reset the button text to "Copy"
   setTimeout(() => {
-    setBtnVal("Copy");
+    setBtnVal("Copied");
   }, 3000);
     PwdRef.current.select();
 
