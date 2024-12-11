@@ -34,7 +34,7 @@ function App() {
   setTimeout(() => {
     setBtnVal("Copied");
   }, 3000);
-    PwdRef.current.select();
+    PwdRef.current?.select();
 
   }
 
